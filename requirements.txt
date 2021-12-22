@@ -1,0 +1,9 @@
+﻿
+Faker
+robotframework
+robotframework-faker
+robotframework-pythonlibcore
+robotframework-seleniumlibrary
+robotframework-seleniumscreenshots
+selenium
+
