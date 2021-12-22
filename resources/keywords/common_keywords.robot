@@ -4,7 +4,6 @@ Documentation    Keywords comuns a todo framework
 Library         SeleniumLibrary
 Library         FakerLibrary    locale=pt_BR
 Library         String
-Library         ScreenCapLibrary
 Library         BuiltIn
 
 Resource    ../pages/header_page.robot
@@ -151,16 +150,6 @@ Retornar o celular formatado com () e - para celular com 11 caracteres
     ${mobile}=     Catenate    (${fone_start})     ${fone_meio}-${fone_final}
     
     [Return]    ${mobile}
-
-Inicar gravação de evidências
-
-    Set Selenium Speed    0.2 seconds
-    Start Video Recording    name=${TEST_NAME}
-
-Finalizar gravação de evidências
-
-    Stop Video Recording
-    Set Selenium Speed    0 seconds
 
 Remover parenteses espaços e hífem de uma string
     [Arguments]    ${text}
