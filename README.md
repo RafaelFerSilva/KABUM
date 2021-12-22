@@ -20,6 +20,9 @@ Para executar os tests execute o seguinte comando na raiz do projeto:
 
 ---
 
+## Pipeline com a execução dos testes
+https://github.com/RafaelFerSilva/KABUM/actions/runs/1609972676
+
 ## Bugs Encontrados.
 Ao realizar o processo de adicionar um item no carrinho, para alguns itens acontece um erro na página de precarrinho.
 
